@@ -1,0 +1,77 @@
+.hero {
+    background-color: #1f2937;
+    height: 550px;
+    
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.building img {
+    height: auto;
+    width: 420px;
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-left: 200px;
+   
+}
+.one {
+    margin-right: 30px;
+}
+.text-image {
+    display: flex;
+    margin: 70px 100px 0px 200px;
+    justify-content: space-between;
+   
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+}
+ul {
+    display: flex;
+    gap: 60px;
+    margin-right: 100px;
+}
+ul,
+p {
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #f9faf8;
+}
+.scientific img {
+    height: 200px;
+    width: 200px;
+
+}
+.information {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 40px;
+}
+.scientific {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+
+}
