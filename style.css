@@ -108,10 +108,47 @@ br {
     justify-content: flex-end;
     margin-right: 50px;
 }
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+}
 .blue-container {
     background-color: #2882f6;
-    width: 1000px;
-    height: 200px;
+    width: 900px;
+    height: 150px;
     display: flex;
-    
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.button2 button {
+    background-color: #2882f6;
+    color: #e5e7eb;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid white;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+.text1 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.text2 {
+    color: antiquewhite;
+    font-size: 20px;
+}
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
