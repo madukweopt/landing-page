@@ -30,7 +30,12 @@
    
 }
 
-button {
+.scientific div p   {
+    color: black;
+    width: 200px;
+}
+
+.text button {
     background-color: #3882F6;
     color: white;
     padding: 14px;
@@ -39,7 +44,7 @@ button {
     border: none;
     width: 150px;
 }
-ul {
+.first ul {
     display: flex;
     gap: 60px;
     margin-right: 100px;
@@ -73,5 +78,40 @@ h1 {
     display: flex;
     margin-top: 50px;
     text-align: center;
+    gap: 50px;
+    justify-content: flex-end;
+    margin-right: 100px;
 
+}
+.quote-container {
+    background-color: #e5e7eb;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #1f2937;
+
+}
+br {
+    font-weight: bold;
+}
+.subscript {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.blue-container {
+    background-color: #2882f6;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    
 }
