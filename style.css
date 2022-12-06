@@ -226,6 +226,7 @@ br {
         display: flex;
         flex-direction: column;
         padding: 10vw 1vw;
+        margin-bottom: 15px;
     }
     .button2 button {
         width: 40vw;
