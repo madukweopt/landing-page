@@ -131,11 +131,12 @@ br {
 .blue-container {
     background-color: #2882f6;
     width: 80vw;
-    height: 150px;
     display: flex;
+    gap: 12px;
     border-radius: 8px;
     justify-content: space-evenly;
     align-items: center;
+    padding: 7vw;
 }
 
 .text-inside-blue {
@@ -151,6 +152,7 @@ br {
     border-radius: 10px;
     padding: 1vw;
     margin-right: 0.7rem;
+    margin-left: 0.5rem;
 
 }
 .text1 {
@@ -227,7 +229,8 @@ br {
         padding: 10vw 1vw;
     }
     .button2 button {
-        width: 100px;
+        width: 40vw;
+        
     }
     .footer {
         gap: 9px;
