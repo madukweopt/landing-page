@@ -125,7 +125,6 @@ br {
     background-color: white;
     display: flex;
     justify-content: center;
-    height: 350px;
     align-items: center;
 }
 .blue-container {
@@ -227,6 +226,7 @@ br {
         flex-direction: column;
         padding: 10vw 1vw;
         margin-bottom: 15px;
+        margin-top: 10px;
     }
     .button2 button {
         width: 30vw;
