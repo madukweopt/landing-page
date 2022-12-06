@@ -170,7 +170,7 @@ br {
     align-items: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .text-image {
         display: flex;
         flex-direction: column;
