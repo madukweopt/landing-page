@@ -1,6 +1,6 @@
 .hero {
     background: #1f2937;
-    height: 550px;
+    
     padding: 0;
     margin: 0;
 
@@ -11,98 +11,105 @@ body,html {
 }
 
 .logo img {
-    width: 100px;
-    height: 100px;
+    width: 7vw;
+    height: 7vw;
     border-radius: 50px;
 }
 .building img {
-    height: auto;
-    width: 420px;
+    max-width: 420px;;
 }
 .first {
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    margin-left: 200px;
+    margin-left: 15rem;
    
 }
 .one {
-    margin-right: 30px;
+    margin-right: 2vw;
+    margin-bottom: 5px;
 }
 .text-image {
     display: flex;
-    margin: 70px 100px 0px 200px;
+    margin: 5vw 7vw 0px 5vw;
     justify-content: space-between;
-   
+ 
+}
+
+.text {
+    margin-right: 3vw;
+    margin-top: -5vw;
+    
 }
 
 .scientific div p   {
     color: black;
-    width: 200px;
+    max-width: 200px;
 }
 
 .text button {
     background-color: #3882F6;
     color: white;
-    padding: 14px;
+    padding: .5rem;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     border: none;
-    width: 150px;
+    min-width: 1vw;
 }
 .first ul {
     display: flex;
-    gap: 60px;
-    margin-right: 100px;
+    gap: 4vw;
+    margin-right: 8vw;
 }
 ul,
 p {
     color: white;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 1rem;
     color: #e5e7eb;
     
 }
 h1 {
-    font-size: 48px;
-    font-weight: 700px;
+    font-size:3em;
+    font-size: 3.5vw;
     color: #f9faf8;
 }
 .scientific img {
-    height: 200px;
-    width: 200px;
+    width: 12vw;
+    height: 15vh;
 
 }
 .information {
-    font-size: 32px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #1f2937;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 3rem;
 }
 .scientific {
     display: flex;
     margin-top: 50px;
     text-align: center;
-    gap: 50px;
+    gap: 4vw;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 10vw;
+
 
 }
 .quote-container {
     background-color: #e5e7eb;
-    height: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .quote {
-    font-size: 36px;
+    font-size: 2rem;
     font-style: italic;
     font-weight: lighter;
     text-align: center;
     color: #1f2937;
+    padding: 30px;
 
 }
 br {
@@ -123,23 +130,27 @@ br {
 }
 .blue-container {
     background-color: #2882f6;
-    width: 900px;
+    width: 80vw;
     height: 150px;
     display: flex;
     border-radius: 8px;
     justify-content: space-evenly;
     align-items: center;
+}
 
+.text-inside-blue {
+    margin-left: 0.7rem;
 }
 .button2 button {
     background-color: #2882f6;
     color: #e5e7eb;
-    width: 130px;
-    font-size: 18px;
+    width: 12vw;
+    font-size: 1rem;
     font-weight: bold;
     border: solid white;
     border-radius: 10px;
-    padding: 8px;
+    padding: 1vw;
+    margin-right: 0.7rem;
 
 }
 .text1 {
@@ -157,4 +168,60 @@ br {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 600px) {
+    .text-image {
+        display: flex;
+        flex-direction: column;
+    }
+    .building img {
+        margin-bottom: 20px;
+        margin-top: 16px;
+    }
+    .first {
+        display: flex;
+        justify-content: center;
+        gap: 0.5vw;
+        align-items: center;
+        margin-left: 1rem;
+    }
+     .hero ul  {
+        display: flex;
+        gap: 4vw;
+        font-size: 0.9rem;
+    }
+    .text {
+        text-align: center;
+    }
+    .building img {
+        max-width: 70vw;
+    }
+    .building {
+        display: flex;
+        margin: auto;
+    }
+    button,
+    .quote {
+        margin: 8px;
+    }
+    .scientific {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .scientific img {
+        min-width: 150px;
+    }
+    .blue-container{
+        display: flex;
+        flex-direction: column;
+        padding: 10vw 1vw;
+    }
+    .button2 button {
+        width: 100px;
+    }
+    .footer {
+        gap: 10px;
+        padding: 8px;
+    }
 }
