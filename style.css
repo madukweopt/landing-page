@@ -229,12 +229,13 @@ br {
         margin-bottom: 15px;
     }
     .button2 button {
-        width: 40vw;
+        width: 30vw;
         
     }
     .footer {
         gap: 9px;
         padding: 8px;
+        margin-top: 10px;
     }
     .image {
         display: flex;
